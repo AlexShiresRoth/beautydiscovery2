@@ -1,5 +1,5 @@
 <script>
-  // your script goes here
+  let redirectLink = "https://freelash.slick.love/slick-checkout-page1jr1286x";
   const steps = [
     {
       stepNum: "Step 1",
@@ -66,10 +66,8 @@
         on at home for under $20?
       </p>
       <p>
-        <a
-          href="https://freelashkit.com"
-          class="lashkit-link"
-          on:click={fbClickEvent}><strong>Sign me up!</strong></a
+        <a href={`${redirectLink}`} class="lashkit-link" on:click={fbClickEvent}
+          ><strong>Sign me up!</strong></a
         >
       </p>
       <p>So I did and a few days later they came.</p>
@@ -109,10 +107,7 @@
         </blockquote>
       </div>
       <div class="a13d-image hide_on_mobile">
-        <a
-          href="https://www.freelashkit.com"
-          class="lashkit-link"
-          on:click={fbClickEvent}
+        <a href={`${redirectLink}`} class="lashkit-link" on:click={fbClickEvent}
           ><img
             src="https://ik.imagekit.io/usam13ogl7u/300X600-slick-banner-ad-variant_My50_AQ-u.png"
           /></a
@@ -184,7 +179,7 @@
         <strong
           >don’t forget to check out
           <a
-            href="https://www.freelashkit.com"
+            href={`${redirectLink}`}
             class="lashkit-link"
             on:click={fbClickEvent}>www.freelashkit.com</a
           >
@@ -203,10 +198,7 @@
     </div>
     <div class="column-right">
       <div class="a13d-image">
-        <a
-          href="https://www.freelashkit.com"
-          class="lashkit-link"
-          on:click={fbClickEvent}
+        <a href={`${redirectLink}`} class="lashkit-link" on:click={fbClickEvent}
           ><img
             src="https://ik.imagekit.io/usam13ogl7u/slick-ad-twitter-grmlah-lash-800x800_0lwpcwH9K.png"
           /></a
@@ -215,7 +207,7 @@
 
       <div class="a#13d-image hide_on_mobile">
         <a
-          href="https://www.freelashkit.com"
+          href={`${redirectLink}`}
           class="lashkit-link"
           on:click={fbClickEvent}>
           <img
