@@ -18,8 +18,10 @@
       & img {
         max-width: 9rem;
       }
-      & p {
+      & p,
+      & a {
         color: #666;
+        margin: 0 0.5rem;
       }
     }
   }
